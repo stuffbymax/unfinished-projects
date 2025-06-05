@@ -1,0 +1,428 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "menu",
+  "name": "menu",
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.6244537826600003,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1296,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BrownBox",
+      "persistentUuid": "7bfc4ef2-3295-4ca4-9248-dd38596df0a8",
+      "width": 723,
+      "x": -3,
+      "y": -2,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "setting",
+      "persistentUuid": "e17e1253-55a8-4336-b1e1-a6f2e0d87719",
+      "width": 256,
+      "x": 224,
+      "y": 512,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RedDecoratedButton",
+      "persistentUuid": "5ef56825-90c0-4237-b926-3c348dc8deb4",
+      "width": 256,
+      "x": 224,
+      "y": 704,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "options",
+      "persistentUuid": "8ebfee9e-4763-461c-bb80-c7b2b4e2755b",
+      "width": 256,
+      "x": 224,
+      "y": 608,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "start",
+      "persistentUuid": "4b23da82-3eef-40a2-9827-724247fbc1db",
+      "width": 256,
+      "x": 224,
+      "y": 512,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ver",
+      "persistentUuid": "d475a686-f81b-425a-b20d-d41afe871cd4",
+      "width": 0,
+      "x": 524,
+      "y": 1153,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ver",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "ver 0.0.1-A",
+      "font": "ArchitectsDaughter.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "ver 0.0.1-A",
+        "font": "ArchitectsDaughter.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "ver"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "371c47ae54eed0c4030daae053102f21efb4107774d64baecc6ee9ce59ba3439_Northur.aac",
+            "",
+            "70",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "start",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"q1\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "options",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"options\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "RedDecoratedButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "setting",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "music_off",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "70"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "music_off",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
+}
